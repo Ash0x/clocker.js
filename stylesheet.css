@@ -1,5 +1,5 @@
 body {background-color: cadetblue;}
-#clock {
+#clock {padding-top:20%;
     font-family: 'League Script', cursive;
     font-size: 8em;
     text-align: center;
