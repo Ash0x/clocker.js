@@ -1,0 +1,6 @@
+body {background-color: cadetblue;}
+#clock {
+    font-family: 'League Script', cursive;
+    font-size: 8em;
+    text-align: center;
+}
