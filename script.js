@@ -54,3 +54,25 @@ updateClock();
 // Getting the clock to increment once a second
 var oneSecond = 1000;
 setInterval( updateClock, oneSecond);
+
+var setGreeting = function()
+{
+    var greetingMsg = document.getElementById('greeting');
+
+    var currentTime = new Date();
+    var hours = currentTime.getHours();
+    if (hours > 18)
+    {
+        greetingMsg = "Good Evening!";
+    }
+    else if (hours > 12)
+    {
+        greetingMsg = "Good Afternoon!";
+    }
+    else
+    {
+        greetingMsg = "Good Morning!";
+    }
+greeting.innerText = greetingMsg;
+};
+setGreeting();
